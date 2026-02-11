@@ -28,6 +28,11 @@ cd sandesh_ai_model_0.0.1
 
 ## 🖥 System Requirements
 
+You can run this model locally on
+- Windows
+- macOS
+- Linux
+
 You must install:
 
 - Python 3.10 or newer
