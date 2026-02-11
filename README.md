@@ -1,34 +1,24 @@
-# 🧠 Sandesh AI Model v0.0.1
-A custom 15.7M parameter GPT-style Transformer trained completely from scratch using PyTorch.
+# Sandesh AI Model v0.0.1
+
+A 15.7M parameter GPT-style Transformer trained from scratch using PyTorch.
 
 ---
 
-## 🚀 Model Overview
+## 📥 How To Download This Project
 
-- Architecture: Decoder-only Transformer (GPT-style)
-- Layers: 6
-- Embedding Dimension: 384
-- Attention Heads: 6
-- Feedforward Size: 1536
-- Context Length: 128 tokens
-- Vocabulary Size: 6592
-- Total Parameters: 15,765,952
-- Model Size: ~60MB
+### Option 1 (Easiest – Download ZIP)
+
+1. Go to this repository page.
+2. Click the green **Code** button.
+3. Click **Download ZIP**.
+4. Extract the ZIP file.
+5. Open the extracted folder.
 
 ---
 
-## 📊 Training Details
-
-- Dataset size: 3535 text samples
-- Total tokens: ~89,000
-- Epochs trained: 50
-- Optimizer: AdamW
-- Loss Function: CrossEntropyLoss
-- Gradient Clipping: Enabled
-
----
-
-## 📦 Installation
+### Option 2 (Using Git)
 
 ```bash
-pip install torch tokenizers
+git clone https://github.com/YOUR_USERNAME/sandesh_ai_model_0.0.1.git
+cd sandesh_ai_model_0.0.1
+
