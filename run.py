@@ -14,7 +14,7 @@ tokenizer = Tokenizer.from_file("tokenizer.json")
 model = GPT(tokenizer.get_vocab_size(), block_size).to(device)
 
 # Load weights
-model.load_state_dict(torch.load("mini_gpt_15m_final.pt", map_location=device))
+model.load_state_dict(torch.load("sandesh_ai_m_001.pt", map_location=device))
 model.eval()
 
 def generate(prompt, max_new_tokens=50, temperature=0.8, top_k=30):
