@@ -17,7 +17,7 @@ A 15.7M parameter GPT-style Transformer trained from scratch using PyTorch.
 ### Option 2 — Clone Using Git
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sandesh_ai_model_0.0.1.git
+git clone https://github.com/Sandesh-jha/sandesh_ai_model_0.0.1.git
 ```
 
 ```bash
